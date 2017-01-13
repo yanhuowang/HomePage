@@ -1,0 +1,1 @@
+$("#info").height($("#photo").height());
