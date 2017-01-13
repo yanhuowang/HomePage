@@ -1,0 +1,29 @@
+* {
+	color: #182153;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*header navbar*/
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 26px;
+	color: #182153;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 26px;
+	color: #182153;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #182153;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
