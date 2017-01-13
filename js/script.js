@@ -1,1 +1,1 @@
-$("#info").height($("#photo").height());
+// $("#info").height($("#photo").height());

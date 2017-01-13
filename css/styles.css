@@ -58,20 +58,36 @@ div {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+
 /*section: overview*/
 #overview {
 	background-image: url("../img/background.jpg");
 	padding-top: 10%;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 0;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+#overview-row {
+  overflow: hidden;
+}
+
+#info {
+	padding-bottom: 100%;
+  margin-bottom: -100%;
+  background-color: #D6DBDF;
+}
+
+#photo {
+	padding-bottom: 100%;
+  margin-bottom: -100%;
 }
 
 #myInfoDiv {
 	padding: 10%;
-	width: 100%;
-	height: 100%;
-	background-color: #D6DBDF;
 }
 
 
