@@ -1,0 +1,83 @@
+
+/*Responsive vertical Timeline*/
+
+.timeline {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.timeline-center-line {
+	position: absolute;
+	top: 0;
+	width: 2px;
+	margin-left: -1px;
+	height: 100%;
+	background: #E5E8E8;
+	z-index: -1;
+}
+
+.timeline-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.timeline-article {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin:  50px 0;
+}
+
+.timeline-break-point {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 6px;
+	width: 6px;
+	margin-left: -3px;
+	border-radius: 100%;
+	background: #182153;
+}
+
+.timeline-left-container, .timeline-right-container {
+	width: 44%;
+}
+
+.timeline-left-container {
+	float: left;
+	/*border: solid 1px;*/
+	text-align: right;
+}
+
+.timeline-right-container {
+	float: right;
+	/*border: solid 1px;*/
+}
+
+.timeline-left-container h2, .timeline-right-container h2 {
+	margin-top: 0px;
+	font-size: 16px; 
+}
+
+.timeline-left-container h2 {
+	font-weight: bold;
+}
+
+/* lg md sm */
+@media (min-width: 768px) {
+	.timeline-center-line {
+		left: 50%;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+}
+
+
+
+
+
