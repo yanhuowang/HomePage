@@ -45,6 +45,13 @@ section {
 	width: 100%;
 }
 
+.section-title h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
 /*header: navbar*/
 .navbar-default {
   background-color: #ffffff;
