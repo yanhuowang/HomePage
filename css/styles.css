@@ -41,6 +41,10 @@ div {
 	padding: 0px;
 }
 
+section {
+	width: 100%;
+}
+
 /*header: navbar*/
 .navbar-default {
   background-color: #ffffff;
@@ -54,6 +58,7 @@ div {
 }
 
 .navbar-default .navbar-nav>li>a {
+	font-size: 18px;
 	color: #182153;
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -82,7 +87,7 @@ div {
 #info {
 	padding-bottom: 100%;
   margin-bottom: -100%;
-  background-color: #D6DBDF;
+  background-color: #E5E8E8;
 }
 
 #photo {
@@ -101,10 +106,20 @@ div {
 	margin-left: 0px;
 	margin-right: 0px;
 	width: 100%;
+	background-color: #E5E8E8;
 }
 
 #social-div {
 	background-image: url("../img/socialBar.jpg");
+}
+
+/*section: introduction*/
+#introduction {
+	background-color: #E5E8E8;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
 }
 
 
