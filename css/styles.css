@@ -58,13 +58,17 @@ div {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #182153;
+}
+
 
 /*section: overview*/
 #overview {
 	background-image: url("../img/background.jpg");
 	padding-top: 10%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 7%;
+	padding-right: 7%;
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -86,9 +90,23 @@ div {
   margin-bottom: -100%;
 }
 
-#myInfoDiv {
+#my-info-div {
 	padding: 10%;
 }
+
+/*section: social bar*/
+#social {	
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+#social-div {
+	background-image: url("../img/socialBar.jpg");
+}
+
 
 
 
