@@ -35,17 +35,17 @@
 	margin:  50px 0;
 }
 
-.timeline-left-container h2, .timeline-right-container h2 {
+.timeline-left-container h3, .timeline-right-container h3 {
 	margin-top: 0px;
 	margin-bottom: 5px;
 }
 
-.timeline-left-container h2 {
+.timeline-left-container h3 {
 	font-size: 16px; 
 	font-weight: bold;
 }
 
-.timeline-right-container h2 {
+.timeline-right-container h3 {
 	font-size: 16px; 
 }
 

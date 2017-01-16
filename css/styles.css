@@ -52,6 +52,28 @@ section {
 	margin-bottom: 40px;
 }
 
+.section-title-inverted {
+	background-color: #182153;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section-title-inverted h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.no-left-right-margin {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 /*header: navbar*/
 .navbar-default {
   background-color: #ffffff;
@@ -88,9 +110,7 @@ section {
 	padding-left: 7%;
 	padding-right: 7%;
 	padding-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 100%;
+	
 }
 
 #overview-row {
@@ -116,9 +136,6 @@ section {
 #social {	
 	padding-left: 7%;
 	padding-right: 7%;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 100%;
 	background-color: #E5E8E8;
 }
 
@@ -129,11 +146,78 @@ section {
 /*section: introduction*/
 #introduction {
 	background-color: #E5E8E8;
-	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin: 0px;
 }
+
+/*section: experience*/
+/*section: education*/
+
+/*use timeline*/
+
+/*section: skills*/
+#skills {
+	margin-top: 30px;
+}
+
+#skills h3 {
+	color: #182153;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#skills p {
+	color: #182153;
+}
+
+#skills-content {
+	margin-top: 1px;
+	background-image: url("../img/background.jpg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#skills-container {
+	width: 84%;
+}
+.skill-set {
+	text-align: center;
+	padding: 20px;
+}
+
+.skill-set-odd {
+	background: #E5E8E8;
+}
+
+.skill-set-even {
+	background: #E5E8E8;
+	opacity: 0.7;
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	#skill3 {
+		opacity: 0.7;
+	}
+
+	#skill4 {
+		opacity: 1;
+	}
+}
+
+.skill-list-div {
+	text-align: left;
+	margin-left: 25px; 
+	margin-top: 20px;
+}
+
+footer {
+	padding-left: 25px;
+}
+
+
+
 
 
 
