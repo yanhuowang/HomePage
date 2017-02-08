@@ -163,6 +163,11 @@ section {
 	margin-bottom: 20px;
 }
 
+.project-content {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
 /*section: skills*/
 #skills {
 	margin-top: 30px;
