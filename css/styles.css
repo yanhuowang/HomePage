@@ -156,14 +156,19 @@ section {
 /*use timeline*/
 
 /*section: projects*/
-.project-content h3 {
+.project-content-div h3 {
 	font-size: 18px;
 	font-variant: small-caps;
+	font-weight: bold;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.project-content {
+.project-content-div summary {
+	font-size: 15px;
+}
+
+.project-content-div {
 	padding-left: 12px;
 	padding-right: 12px;
 }
