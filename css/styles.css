@@ -164,13 +164,17 @@ section {
 	margin-bottom: 20px;
 }
 
-.project-content-div summary {
-	font-size: 15px;
-}
-
 .project-content-div {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.project-summary {
+	font-size: 15px;
+}
+
+.project-detail {
+	display: none;
 }
 
 /*section: skills*/
