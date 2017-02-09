@@ -249,14 +249,15 @@
       <hr/>
 
       <div id="projects-container" class="container">
-        <div id="projects-row" class="row">
-          <!-- project1 -->
-          <div id="project1-img-div" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+        <!-- project1 -->
+        <div id="projects-row" class="row"> 
+          <div id="project1-img-div" class="project-img-div col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <a href="https://github.com/yanhuowang/EmotionArousalsDetectorEmpatica" target="_blank">
-              <img id="project1-img" src="img/eda.png" alt="My picture">
+              <img id="project1-img" class="img-thumbnail" src="img/eda.jpg" alt="project_screenshot">
             </a>
           </div>
-          <div class="project-content-div" id="project1-content-div" class="project-content col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div id="project1-content-div" class="project-content-div col-lg-9 col-md-8 col-sm-6 col-xs-12">
             <a href="https://github.com/yanhuowang/EmotionArousalsDetectorEmpatica" target="_blank">
               <h3> EDA Arousal Application </h3>
             </a>
@@ -266,8 +267,35 @@
               <p> - Besides showing the values, the application provides a visualization (emoji face) which reflects the changes in the EDA values. </p>
               <p> - When an arousal is detected, there will be a color change in the background. </p>
             </details>
-          </div> <!-- end of project1 -->
-        </div> <!-- end of row -->
+          </div> <!-- end of project1-content -->
+        </div> <!-- end of project1 -->
+        <br />
+
+        <!-- project2 -->
+        <div id="projects-row" class="row">
+          <div id="project2-img-div" class="project-img-div col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <a href="https://comp120team8reporter.herokuapp.com" target="_blank">
+              <img id="project2-img" class="img-thumbnail" src="img/incidents.jpg" alt="project_screenshot">
+            </a>
+          </div>
+          <div id="project2-content-div" class="project-content-div col-lg-9 col-md-8 col-sm-6 col-xs-12">
+            <a href="https://comp120team8reporter.herokuapp.com" target="_blank">
+              <h3> Web-based Incident Reporting System </h3>
+            </a>
+            <details>
+              <summary>Built with Ruby on Rails framework and MySQL database that allows people reporting and monitoring incidents.</summary>
+              <p> We went through the whole design and develop process, including: </p>
+              <p> - Designed data schema and wireframe. </p>
+              <p> - Implemented minimum viable product (MVP). </p>
+              <P> - Performed tests using Rspec. </P>
+              <P> - Optimized static content using technics like expiry, content delivery network, gzip, etc. </P>
+              <P> - Wrote RESTful APIs using Grape. </P>
+              <P> - Provide polling and memory aching with Redis. </P>
+            </details>
+          </div> <!-- end of project2-content -->
+        </div> <!-- end of project2 -->
+        <br />
+
       </div> <!-- end of container -->
 
 
