@@ -219,6 +219,11 @@ section {
 	opacity: 0.7;
 }
 
+/* contact */
+#contact {
+	background-color: #E5E8E8;
+}
+
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 	#skill3 {
