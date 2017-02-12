@@ -234,6 +234,10 @@ section {
 	padding-right: 20px;
 }
 
+.contact-title {
+	font-variant: small-caps;
+	font-weight: bold;
+}
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 	#skill3 {
