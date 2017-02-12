@@ -48,8 +48,8 @@ section {
 .section-title h2 {
 	font-size: 20px;
 	font-weight: bold;
-	margin-top: 60px;
-	margin-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 15px;
 }
 
 .section-title-inverted {
@@ -222,6 +222,16 @@ section {
 /* contact */
 #contact {
 	background-color: #E5E8E8;
+}
+
+.contact-icon {
+  margin-top: 13px;
+}
+
+#contact-row {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* sm */
