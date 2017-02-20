@@ -238,6 +238,23 @@ section {
 	font-variant: small-caps;
 	font-weight: bold;
 }
+
+#saying {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#saying-sentence {
+	font-style:italic;
+	font-family: Comic Sans MS, cursive;
+	text-align: left;
+}
+
+#saying-author {
+	font-style:italic;
+	font-family: Comic Sans MS, cursive;
+	text-align: right;
+}
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 	#skill3 {
