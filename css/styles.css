@@ -244,6 +244,32 @@ section {
 	padding-right: 10%;
 }
 
+@media(max-width:767px){
+	#saying {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+
+@media(min-width:768px){
+	#saying {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+}
+@media(min-width:992px){
+	#saying {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+}
+@media(min-width:1200px){
+	#saying {
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+}
+
 #saying-sentence {
 	font-style:italic;
 	font-family: Comic Sans MS, cursive;
