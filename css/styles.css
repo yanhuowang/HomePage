@@ -132,6 +132,26 @@ section {
 	padding: 10%;
 }
 
+#my-info-div h2 {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+@media(max-width: 992px){
+	#my-name {
+		margin-top: 4px;
+	}
+
+	#my-info-div {
+		padding: 5%;
+	}
+
+	#my-info-div h2 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+}
+
 /*section: social bar*/
 #social {	
 	padding-left: 7%;
